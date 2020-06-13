@@ -284,8 +284,8 @@ def gameLoop():
             if plane.plane_x >= SCREENWIDTH - plane.plane_w:
                 plane.plane_x = SCREENWIDTH - plane.plane_w - 1
 
-            # WINDOW.blit(BG_IMG, (0, 0))
-            WINDOW.fill(WHITE)
+            WINDOW.blit(BG_IMG, (0, 0))
+            # WINDOW.fill(WHITE)
 
             score_list = [x for x in str(score)]
             k = 0
